@@ -30,8 +30,8 @@
 
         </section>
         <section class="form-group">
-            {!!Form::label('','Upload photo')!!}
-            {!!Form::file('file',null,['class'=>'form-control'])!!}
+            {!!Form::label('photo_id','Upload photo')!!}
+            {!!Form::file('photo_id',null,['class'=>'form-control'])!!}
 
         </section>
         <section class="form-group">
