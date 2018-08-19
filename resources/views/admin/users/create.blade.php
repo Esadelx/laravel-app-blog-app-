@@ -26,7 +26,7 @@
         </section>
         <section class="form-group">
             {!!Form::label('active','Status:')!!}
-            {!!Form::select('active',array(1=>'Active', 0=>'Not active'),0,['class'=>'form-control'])!!}
+            {!!Form::select('active',array( 1=>'Active', 0=>'Not active'),null,['class'=>'form-control'])!!}
 
         </section>
         <section class="form-group">
