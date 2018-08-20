@@ -34,7 +34,7 @@
 
         </section>
         <section class="form-group">
-            {!!Form::submit('Create User',['class'=>'btn btn-primary'])!!}
+            {!!Form::submit('Update User',['class'=>'btn btn-primary'])!!}
         </section>
     {!!Form::close()!!}
     @if(count($errors) > 0 )
