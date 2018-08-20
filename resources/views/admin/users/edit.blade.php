@@ -24,11 +24,10 @@
             {!!Form::select('role_id', $roles ,null,['class'=>'form-control'])!!}
 
         </section>
-        <section class="form-group">
-            {!!Form::label('active','Status:')!!}
-            {!!Form::select('active',array(1=>'Active', 0=>'Not active'),null,['class'=>'form-control'])!!}
-
-        </section>
+        <div class="form-group">
+            {!! Form::label('is_active', 'Status:') !!}
+            {!! Form::select('is_active', array(1 => 'Active', 0=> 'Not Active'), null , ['class'=>'form-control'])!!}
+         </div>
         <section class="form-group">
             {!!Form::label('photo_id','Upload photo')!!}
             {!!Form::file('photo_id',null,['class'=>'form-control'])!!}
